@@ -79,7 +79,11 @@ This pattern sometimes introduce different levels of data hiding which results i
 
 **Summary:** 
 
-Prototype pattern allows us to create a copy of existing object when a new instance creation takes time to create. This reduce time of creation of new instances and memory allocation in much better way. For example: When a bulk of movie data has same informations like title, language, genre, to store in the database we need not to create each instance everytime, we can create one instance and do a copy instance and iterate and store all the records. This saves memory and time of new instance creations.
+Prototype pattern allows us to create a copy of existing object when a new instance creation takes more time and memory. 
+
+**what kind of problem(s) you can solve with that pattern and when you use it, maybe with a short example**
+
+This reduce time of creation of new instances and memory allocation in much better way. For example: When a bulk of movie data has same informations like title, language, genre, to store in the database we need not to create each instance everytime, we can create one instance and do a copy instance and iterate and store all the records. This saves memory and time of new instance creations.
 
 **Basic idea of the pattern:**
 
